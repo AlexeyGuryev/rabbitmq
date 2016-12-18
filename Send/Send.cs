@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Text;
-using Client;
+using Core;
 using RabbitMQ.Client;
 
 namespace Send

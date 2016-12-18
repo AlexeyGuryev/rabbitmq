@@ -1,6 +1,6 @@
 ﻿using RabbitMQ.Client;
 
-namespace Client
+namespace Core
 {
     public static class Connector
     {

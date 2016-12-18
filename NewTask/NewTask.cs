@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Text;
-using Client;
+using Core;
 using RabbitMQ.Client;
 
 namespace NewTask
@@ -11,7 +11,7 @@ namespace NewTask
 
         static void Main(string[] args)
         {
-            string message = GetMessage(args);
+            string message = Util.GetMessageFromArgs(args);
             var body = Encoding.UTF8.GetBytes(message);
 
             using (var connection = Connector.CreateConnectionFactory().CreateConnection())
@@ -37,11 +37,6 @@ namespace NewTask
                     Console.WriteLine("Message sent: {0}", message);
                 }
             }
-        }
-
-        private static string GetMessage(string[] args)
-        {
-            return args.Length > 0 ? string.Join(" ", args) : "Hello world!";
         }
     }
 }

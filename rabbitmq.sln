@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker", "Worker\Worker.csproj", "{34C69A1A-6EB6-4E3F-8569-24BC532E14E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLog", "EmitLog\EmitLog.csproj", "{001C54CE-2EFE-4056-84E5-A0E136504E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLog", "ReceiveLog\ReceiveLog.csproj", "{27ED3B18-8556-4450-BE2B-AD213E15EDCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{34C69A1A-6EB6-4E3F-8569-24BC532E14E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34C69A1A-6EB6-4E3F-8569-24BC532E14E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34C69A1A-6EB6-4E3F-8569-24BC532E14E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{001C54CE-2EFE-4056-84E5-A0E136504E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001C54CE-2EFE-4056-84E5-A0E136504E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001C54CE-2EFE-4056-84E5-A0E136504E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001C54CE-2EFE-4056-84E5-A0E136504E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27ED3B18-8556-4450-BE2B-AD213E15EDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27ED3B18-8556-4450-BE2B-AD213E15EDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27ED3B18-8556-4450-BE2B-AD213E15EDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27ED3B18-8556-4450-BE2B-AD213E15EDCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

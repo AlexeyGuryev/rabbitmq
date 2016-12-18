@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 using System.Threading;
-using Client;
+using Core;
 using RabbitMQ.Client.Events;
 using RabbitMQ.Client;
 
