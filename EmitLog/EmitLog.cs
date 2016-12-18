@@ -7,7 +7,7 @@ namespace EmitLog
 {
     class EmitLog
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             using (var connection = Connector.CreateConnectionFactory().CreateConnection())
             using (var channel = connection.CreateModel())
